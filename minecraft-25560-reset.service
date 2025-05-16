@@ -1,0 +1,10 @@
+[Unit]
+Description=Minecraft Server Chunk Reset Service
+
+[Service]
+Type=oneshot
+
+User=minecraft
+Group=minecraft
+WorkingDirectory=/opt/sfw/mc
+ExecStart=/opt/sfw/mc/minecraft-reset.sh start

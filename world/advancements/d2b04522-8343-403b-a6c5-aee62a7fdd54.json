@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2022-06-07 12:30:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2022-06-07 12:29:39 +0900",
+      "minecraft:windswept_hills": "2022-06-07 12:30:08 +0900"
+    },
+    "done": false
+  },
+  "DataVersion": 3105
+}

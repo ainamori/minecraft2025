@@ -1,0 +1,17 @@
+[Unit]
+Description=Minecraft Server Service
+After=network.target
+
+[Service]
+Type=simple
+
+User=minecraft
+Group=minecraft
+WorkingDirectory=/opt/sfw/mc
+ExecStart=/opt/sfw/mc/rc_minecraft.sh start
+ExecStop=/opt/sfw/mc/rc_minecraft.sh stop
+#ExecReload=/opt/sfw/mc/rc_minecraft.sh restart
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
