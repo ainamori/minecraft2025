@@ -7588,5 +7588,29 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/copper_lantern": {
+    "criteria": {
+      "has_copper_torch": "2025-10-13 17:26:34 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_lantern_from_honeycomb": {
+    "criteria": {
+      "has_copper_lantern": "2025-10-13 17:26:36 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_copper_lantern_from_honeycomb": {
+    "criteria": {
+      "has_exposed_copper_lantern": "2025-10-13 17:35:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bordure_indented_banner_pattern": {
+    "criteria": {
+      "has_vines": "2025-10-19 11:49:41 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }

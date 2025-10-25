@@ -7642,5 +7642,131 @@
     },
     "done": true
   },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-10-13 17:52:16 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/copper_nugget_from_smelting": {
+    "criteria": {
+      "has_copper_chestplate": "2025-10-13 17:53:13 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_blasting": {
+    "criteria": {
+      "has_copper_chestplate": "2025-10-13 17:53:13 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/resin_brick_wall": {
+    "criteria": {
+      "has_resin_bricks": "2025-10-18 11:43:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_brick_stairs": {
+    "criteria": {
+      "has_resin_bricks": "2025-10-18 11:43:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/resin_brick_wall_from_resin_bricks_stonecutting": {
+    "criteria": {
+      "has_resin_bricks": "2025-10-18 11:43:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_brick_stairs_from_resin_bricks_stonecutting": {
+    "criteria": {
+      "has_resin_bricks": "2025-10-18 11:43:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_resin_bricks_from_resin_bricks_stonecutting": {
+    "criteria": {
+      "has_resin_bricks": "2025-10-18 11:43:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_brick_slab_from_resin_bricks_stonecutting": {
+    "criteria": {
+      "has_resin_bricks": "2025-10-18 11:43:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_brick_slab": {
+    "criteria": {
+      "has_resin_bricks": "2025-10-18 11:43:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/field_masoned_banner_pattern": {
+    "criteria": {
+      "has_bricks": "2025-10-21 22:54:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/orange_bundle": {
+    "criteria": {
+      "has_orange_dye": "2025-10-25 08:43:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-10-25 08:43:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-10-25 08:43:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_orange_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-10-25 08:43:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2025-10-25 08:57:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-10-25 08:57:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-10-25 08:57:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-10-25 08:57:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-10-25 08:57:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bordure_indented_banner_pattern": {
+    "criteria": {
+      "has_vines": "2025-10-25 08:57:21 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }
