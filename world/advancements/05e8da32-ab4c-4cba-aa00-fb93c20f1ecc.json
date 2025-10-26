@@ -5653,5 +5653,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-10-26 21:08:33 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }
