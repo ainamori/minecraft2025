@@ -6946,18 +6946,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
-    "criteria": {
-      "has_oxidized_copper_trapdoor": "2024-07-06 20:21:33 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_copper_bulb_from_honeycomb": {
-    "criteria": {
-      "has_copper_bulb": "2024-07-08 14:55:18 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
     "criteria": {
       "has_oxidized_cut_copper": "2024-07-12 08:26:11 +0900"
@@ -6991,12 +6979,6 @@
   "minecraft:recipes/building_blocks/oxidized_cut_copper_slab": {
     "criteria": {
       "has_oxidized_cut_copper": "2024-07-12 08:26:11 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_bulb_from_honeycomb": {
-    "criteria": {
-      "has_oxidized_copper_bulb": "2024-07-12 14:32:05 +0900"
     },
     "done": true
   },
@@ -7792,5 +7774,11 @@
     },
     "done": true
   },
-  "DataVersion": 4556
+  "minecraft:recipes/combat/copper_spear": {
+    "criteria": {
+      "has_copper_ingot": "2025-12-11 09:58:21 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }

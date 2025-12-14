@@ -1,6 +1,6 @@
 #!/bin/bash
 SCREEN_NAME='minecraft-25560'
-VERSION=1.21.10
+VERSION=1.21.11
 SFW_DIR=/opt/sfw
 MINECRAFT_JAR=${SFW_DIR}/minecraft/minecraft_server.${VERSION}.jar
 JAVA=${SFW_DIR}/graalvm/bin/java

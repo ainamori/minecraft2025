@@ -6807,12 +6807,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_copper_bulb_from_honeycomb": {
-    "criteria": {
-      "has_copper_bulb": "2024-07-06 13:32:41 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2024-07-06 13:32:47 +0900"
@@ -7618,5 +7612,17 @@
     },
     "done": true
   },
-  "DataVersion": 4556
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2025-12-13 14:12:24 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2025-12-13 14:37:15 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
