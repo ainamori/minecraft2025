@@ -1144,7 +1144,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2020-08-30 14:18:40 +0900"
+      "minecraft:nether_wastes": "2020-08-30 14:18:40 +0900",
+      "minecraft:basalt_deltas": "2026-01-04 21:51:37 +0900"
     },
     "done": false
   },
@@ -2881,5 +2882,29 @@
     },
     "done": true
   },
-  "DataVersion": 4556
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2026-01-04 21:57:54 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-01-04 21:46:36 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-01-04 21:54:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_spear": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-04 21:44:22 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
