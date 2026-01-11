@@ -7636,5 +7636,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_spear": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-07 22:14:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
+    "criteria": {
+      "has_nether_brick_slab": "2026-01-09 11:13:52 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }

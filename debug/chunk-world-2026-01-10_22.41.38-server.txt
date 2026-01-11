@@ -1,0 +1,116 @@
+---- Minecraft Chunk IO Error Report ----
+// Computers were a mistake
+
+Time: 2026-01-10 22:41:38
+Description: Chunk found in invalid location
+
+java.lang.IllegalStateException: Retrieved chunk position [7, -80] does not match requested [12, -81]
+	at erq.a(SourceFile:20)
+	at erq.a(SourceFile:30)
+	at esc.a(SourceFile:230)
+	at awj.a(SourceFile:609)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at cbr.d(SourceFile:169)
+	at axc$a.d(SourceFile:625)
+	at cbr.E(SourceFile:143)
+	at axc$a.E(SourceFile:634)
+	at axc.c(SourceFile:272)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:936)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: IO-Worker-4545
+Stacktrace:
+	at erq.a(SourceFile:20)
+	at erq.a(SourceFile:30)
+	at esc.a(SourceFile:230)
+	at awj.a(SourceFile:609)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at cbr.d(SourceFile:169)
+	at axc$a.d(SourceFile:625)
+	at cbr.E(SourceFile:143)
+	at axc$a.E(SourceFile:634)
+	at axc.c(SourceFile:272)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:936)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+
+-- Misplaced Chunk --
+Details:
+	Stored Position: [7, -80]
+Stacktrace:
+	at erq.a(SourceFile:20)
+	at erq.a(SourceFile:30)
+	at esc.a(SourceFile:230)
+	at awj.a(SourceFile:609)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at cbr.d(SourceFile:169)
+	at axc$a.d(SourceFile:625)
+	at cbr.E(SourceFile:143)
+	at axc$a.E(SourceFile:634)
+	at axc.c(SourceFile:272)
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:936)
+	at net.minecraft.server.MinecraftServer.E(SourceFile:924)
+	at cbr.bN(SourceFile:124)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:892)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:777)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:301)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+-- Chunk Info --
+Details:
+	Level: world
+	Dimension: minecraft:overworld
+	Storage: chunk
+	Position: [12, -81]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.a(SourceFile:2183)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11
+	Minecraft Version ID: 1.21.11
+	Operating System: Linux (amd64) version 3.10.0-1127.13.1.el7.x86_64
+	Java Version: 22.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 10777607072 bytes (10278 MiB) / 12884901888 bytes (12288 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+	Identifier: Intel64 Family 6 Model 62 Stepping 4
+	Microarchitecture: Ivy Bridge (Server)
+	Frequency (GHz): 2.50
+	Number of physical packages: 8
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 11406.21
+	Virtual memory used (MiB): 10020.43
+	Swap memory total (MiB): 2064.00
+	Swap memory used (MiB): 51.62
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 15767.18, total: 28138.25
+	Space in storage for workdir (MiB): available: 15767.18, total: 28138.25
+	JVM Flags: 7 total; -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -Xmx12288M -Xms12288M -XX:+UseG1GC
+	Debug Flags: 0 total; 

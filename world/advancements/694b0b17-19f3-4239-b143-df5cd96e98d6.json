@@ -7792,5 +7792,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_spear": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-07 14:46:54 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
