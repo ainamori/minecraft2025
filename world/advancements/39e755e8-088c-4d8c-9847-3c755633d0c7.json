@@ -967,12 +967,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chain": {
-    "criteria": {
-      "has_iron_ingot": "2020-07-02 22:04:53 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2020-07-02 22:04:53 +0900"
@@ -7255,5 +7249,17 @@
     },
     "done": true
   },
-  "DataVersion": 4440
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2026-02-03 19:52:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-02-03 20:20:31 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
