@@ -5822,5 +5822,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2026-05-23 10:18:39 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
