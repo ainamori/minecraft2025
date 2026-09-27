@@ -5810,5 +5810,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/golden_dandelion": {
+    "criteria": {
+      "has_gold_nugget": "2026-09-25 20:47:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/name_tag": {
+    "criteria": {
+      "has_metal_nugget": "2026-09-25 20:47:32 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
