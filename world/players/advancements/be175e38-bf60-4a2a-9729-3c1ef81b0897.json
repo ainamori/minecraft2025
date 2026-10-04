@@ -106,6 +106,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2020-07-24 14:53:54 +0900",
+      "mutton": "2026-10-03 14:32:23 +0900",
       "chicken": "2020-07-31 21:33:03 +0900",
       "bread": "2020-06-30 21:02:00 +0900",
       "rotten_flesh": "2020-07-18 16:11:04 +0900",
@@ -3904,15 +3905,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_terracotta": {
+  "minecraft:recipes/combat/golden_spear": {
     "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
+      "has_gold_ingot": "2026-09-21 21:43:38 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+  "minecraft:recipes/decorations/golden_dandelion": {
     "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
+      "has_gold_nugget": "2026-09-21 21:43:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/name_tag": {
+    "criteria": {
+      "has_metal_nugget": "2026-09-21 21:43:39 +0900"
     },
     "done": true
   },
@@ -3922,9 +3929,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_glazed_terracotta": {
+  "minecraft:recipes/combat/stone_spear": {
     "criteria": {
-      "has_white_terracotta": "2026-09-21 21:44:02 +0900"
+      "has_cobblestone": "2026-09-21 21:43:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
     },
     "done": true
   },
@@ -3946,27 +3965,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-09-21 21:44:12 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2026-09-21 21:43:59 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-09-21 21:44:12 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2026-09-21 21:44:17 +0900"
     },
     "done": true
   },
@@ -3982,18 +3983,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper": {
-    "criteria": {
-      "has_copper_block": "2026-09-21 21:44:12 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_spear": {
-    "criteria": {
-      "has_gold_ingot": "2026-09-21 21:43:38 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_terracotta": {
     "criteria": {
       "has_terracotta": "2026-09-21 21:43:59 +0900"
@@ -4006,15 +3995,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/golden_dandelion": {
+  "minecraft:recipes/building_blocks/white_terracotta": {
     "criteria": {
-      "has_gold_nugget": "2026-09-21 21:43:39 +0900"
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/orange_terracotta": {
     "criteria": {
-      "has_stone": "2026-09-21 21:44:17 +0900"
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2026-09-21 21:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2026-09-21 21:44:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2026-09-21 21:44:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bundle": {
+    "criteria": {
+      "has_string": "2026-09-21 21:44:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-09-21 21:44:12 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-09-21 21:44:12 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2026-09-21 21:44:12 +0900"
     },
     "done": true
   },
@@ -4036,21 +4091,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_string": "2026-09-21 21:44:08 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
       "has_copper_block": "2026-09-21 21:44:12 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2026-09-21 21:44:17 +0900"
     },
     "done": true
   },
@@ -4060,45 +4103,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_terracotta": {
-    "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/name_tag": {
-    "criteria": {
-      "has_metal_nugget": "2026-09-21 21:43:39 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_terracotta": {
-    "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/copper_grate": {
     "criteria": {
       "has_copper_block": "2026-09-21 21:44:12 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/stone_spear": {
-    "criteria": {
-      "has_cobblestone": "2026-09-21 21:43:58 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magenta_terracotta": {
-    "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_terracotta": {
-    "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
     },
     "done": true
   },
@@ -4108,33 +4115,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-09-21 21:44:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-09-21 21:44:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-09-21 21:44:17 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-09-21 21:44:17 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/gray_terracotta": {
+  "minecraft:recipes/decorations/lodestone": {
     "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
+      "has_iron_ingot": "2026-10-04 11:42:51 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/tools/bundle": {
+  "minecraft:recipes/decorations/iron_chain": {
     "criteria": {
-      "has_string": "2026-09-21 21:44:08 +0900"
+      "has_iron_ingot": "2026-10-04 11:42:51 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/green_terracotta": {
+  "minecraft:recipes/combat/iron_spear": {
     "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
+      "has_iron_ingot": "2026-10-04 11:42:51 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brown_terracotta": {
+  "minecraft:recipes/combat/wooden_spear": {
     "criteria": {
-      "has_terracotta": "2026-09-21 21:43:59 +0900"
+      "has_stick": "2026-10-04 11:43:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-10-04 11:43:54 +0900"
     },
     "done": true
   },
