@@ -4169,5 +4169,11 @@
     },
     "done": true
   },
+  "minecraft:adventure/spear_many_mobs": {
+    "criteria": {
+      "spear_many_mobs": "2026-10-11 15:27:42 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
